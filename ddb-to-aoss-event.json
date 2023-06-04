@@ -1,0 +1,28 @@
+{
+  "Records": [
+    {
+      "eventID": "50e1dc32cd54ad1ba196b8d5a066c56c",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "ap-northeast-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1674715138,
+        "Keys": {
+          "id": {
+            "S": "testv3"
+          }
+        },
+        "NewImage": {
+          "id": {
+            "S": "testv3"
+          }
+        },
+        "SequenceNumber": "200000000020404105425",
+        "SizeBytes": 16,
+        "StreamViewType": "NEW_IMAGE"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:ap-northeast-1:291138884554:table/OpenSearchServerlessStack-TableCD117FA1-1981VO9QIT7YM/stream/2023-01-26T06:29:24.766"
+    }
+  ]
+}
